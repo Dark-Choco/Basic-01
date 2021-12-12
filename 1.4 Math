@@ -1,0 +1,26 @@
+a = 3 + 4
+print ("a:", a)
+
+b = 4 - 1
+print ("b:", b)
+
+c = 5 * 2
+print ("c:", c)
+
+d = 5 / 2
+print ("d:", d)
+
+e = 5 // 2 # Integer Division (real division but without decimal)
+print ("e:", e)
+
+f = 5 % 2 # Modulo (yields the remainder after a division)
+# 2 goes into 5 twice > 1 left over
+print ("f:", f)
+
+f = 10 % 4
+print ("f:", f)
+
+
+#Order of operations
+a = 3 + 5 * 2 #5 times 2, then plus 3
+print (a)
