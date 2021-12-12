@@ -1,0 +1,13 @@
+name = input("Enter your name: ")
+print ("Your name is ", name)
+
+number = input("Please enter a number: ")
+print (number, type(number))
+
+number = int(number)
+print (number, type(number))
+
+
+
+number = int(input ("Enter a number: "))
+print (number, type (number))   
