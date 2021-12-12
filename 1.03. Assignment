@@ -1,0 +1,16 @@
+num = 15
+print(num)
+
+num = num + 1
+print(num)
+
+num = num - 6
+print(num)
+
+a = 5
+b = 7
+a = b #front variable(a) changes to a second variable(b)
+print (a)
+b = b + 2
+print ("Value of a:", a)
+print ("Value of b:", b)
