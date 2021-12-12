@@ -1,0 +1,18 @@
+a = 5
+print (a)
+
+a = 3.1
+print (a)
+
+a = "hello"
+print (a)
+
+a = 'goodbye'
+print (a)
+
+print ("You are ", 8, "years old")
+
+num_players = 456
+print ("There are ", num_players, "in squid game")
+
+print ("Sang-Woo")
