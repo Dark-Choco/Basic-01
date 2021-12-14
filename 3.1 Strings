@@ -1,0 +1,21 @@
+words_str = "I wonder how many squid game people I will see this halloween."
+words_list = words_str.split(" ")
+print(words_list)
+
+name = 'Anna'
+name_length = len(name)
+print("The name is", name, "and the length of name is", name_length)
+
+print (name[0]) #Getting the first char
+
+name = 'Anna Bananas'
+name_last_char = name[len(name)-1] #Getting the last char
+print (name_last_char)
+
+name = 'anna-bannanas'
+print (name[4]) #Char starts from 0
+
+message = "My friend has a crush on JFK"
+mid_index = [len(message)]
+last_index = len(message)-1
+print (message[0], message[4], message[last_index])
