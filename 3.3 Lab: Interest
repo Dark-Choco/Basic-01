@@ -1,0 +1,20 @@
+#p = principle (amount of money)
+#r = interest per year
+#t = time in years
+#n = number of times
+
+#Interest = p*r*t
+#Compound interest: A = P * (1 + (r / n)) *** (n * t) - p
+
+name = input ("What is your name? ")
+p = float (input (("Your principle? ")))
+r = float (input (("Your rate per year? ")))
+n = int (input (("Number of times interest is compounded per year? ")))
+t = float (input (("Your time in years? ")))
+print ("Hello", name + ". Here is your interest.")
+
+simple_interest = p * r * t
+A = p * (1 + (r / n)) ** (n * t) - p
+
+print ("Your simple interest is", simple_interest)
+print ("Your compound interest is", A)
