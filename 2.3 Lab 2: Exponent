@@ -1,0 +1,6 @@
+#Finding the first number raised to the second number
+
+name = input ("Enter a name: ")
+base = int (input ("Enter a base: "))
+exponent = int (input ("Enter an exponent: "))
+print ("Hello", name, ". Your value is", base**exponent)
