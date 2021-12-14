@@ -1,0 +1,7 @@
+name = input ("Enter a name: ")
+place = input ("Enter a place: ")
+number = input ("Enter a number: ")
+noun = input ("Enter a plural noun: ")
+adj = input ("Enter a color: ")
+
+print (name, "went to", place, "to buy", number, "different types of", noun, "but unfortunatley, the", noun, "was all", adj, "so", name, "went back to", place, "to return them.")
