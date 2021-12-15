@@ -1,0 +1,8 @@
+# changing age = 17 to int(input("what is your name"))
+# asking for the age and saving it as an input
+
+age = int (input("What is your age? "))
+if age >= 21:
+    print("You can purchase alcohol")
+else:
+    print("You cannot purcahse alcohol")
