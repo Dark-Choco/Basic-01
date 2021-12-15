@@ -1,0 +1,9 @@
+name = input ("What is your name? ")
+age = int (input ("What is your age? "))
+
+if age >= 65:
+    print ("You,", name + ", is entitled to social security")
+if age >= 21:
+    print ("You,", name + ", can drink")
+if age >= 28:
+    print ("You,", name + ", can vote")
