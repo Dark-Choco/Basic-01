@@ -1,0 +1,19 @@
+
+def f(x):
+    return 2*x +5
+value = f(10)
+print (value)
+
+def print_stuff ():
+    print("Hello")
+    print("Goodbye")
+    print("Here's another")
+print_stuff()
+
+def sum(a, b):
+    return a + b
+print (sum(10, 15))
+
+def concat(str_one, str_two, str_three, str_four, str_five):
+    return str_one + ' ' + str_two + ' ' + str_three + ' ' + str_four + ' ' + str_five
+print (concat('one', 'two', 'three', 'four', 'five'))
