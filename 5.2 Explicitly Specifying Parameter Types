@@ -1,0 +1,21 @@
+def x (x:int):
+        return 2*x + 5
+print (x(10))
+print (x(9.8))
+
+def print_profile (name:str, height:float, weight:float, age:int):
+    print("Hello", name)
+    print("You are", height, "cm tall and", weight, "kg")
+    print ("You are also age", age)
+name = input("what is your name? ")
+
+print_profile (name, 170, 70, 21)
+
+def sum(a : int, b : int) -> int:
+    return a + b
+print (sum(10, 40))
+print (sum(3.5, 4.1))
+
+def print_names(name_one : str, name_two : str, ) -> None:
+    print ("Hello", name_one, "and", name_two)
+print_names("Tofu", "Alfred")
