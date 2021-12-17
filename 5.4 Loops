@@ -1,0 +1,14 @@
+L = [1, 2, 3, 4, 5]
+L2 = []
+
+print (L [0])
+print (L [3])
+
+length = len (L)
+print (L[length-1])
+
+L2 = [470, 'Jennifer Lopez', 3.14]
+print (L2[0])
+print (L2[1])
+print (L2[2])
+
