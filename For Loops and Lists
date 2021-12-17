@@ -1,0 +1,8 @@
+L = [1, 2, 3, 4, 5]
+for element in L:
+    print(element)
+
+L = [1, 2, 3, 4, 5]
+for index in range (len(L)):
+    corresponding_element = L[index]
+    print (corresponding_element)
