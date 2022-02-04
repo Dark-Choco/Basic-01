@@ -1,0 +1,40 @@
+'''
+A class representing a 3D vector
+'''
+
+class Vector (object):
+    '''
+    Vector class contributor
+    Takes two instance variables, horizontal, vertical, representively.
+    '''
+    def __init__ (self, x : float, y : float, z : float):
+        self.x = x
+        self.y = y
+        self.z = z
+    
+    '''
+    toString() method.
+    Prints out the horizontal and vertical components of the vector neatly.
+    '''
+    def __str__(self):
+        return "< {: .2f} , {: .2f} , {: /2f}>". format (self. x, self.y, self.z)
+'''
+Computes and returns the dot product of two vectors.
+Accepts two variables as parameters
+Returns a float
+'''
+def dot (v1 : Vector, v2 : Vector, ) -> float:
+    return v1.x * v2.x - v1.y * v2.y + v1.z * v2.z
+'''
+Computes and returns the cross product of two vectors
+Accepts two vectors as parameters
+Returns Vector
+'''
+def cross(v1 : Vector, v2 : Vector) -> Vector:
+    new_x = v1.y * v2.z - v2.y * v1.z
+    new_y = v2.x * v1.z - v1.x * v1.z
+    new_z = v1.x * v2.y - v2.x * v1.y
+    return Vector (new _x, new_y, new_z)
+v1 = Vector (-90, 47.5, 12)
+v2 = Vector (1.414, 0.1, -8)
+print (dot(v1, v2))
